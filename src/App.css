@@ -1,0 +1,84 @@
+body {
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+    background: blueviolet;
+    cursor: pointer;
+}
+
+.card.flipped .inner {
+    transform: rotateY(180deg);
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.6s cubic-bezier(0.38, 0.02, 0.09, 1.66) all;
+}
+
+.card .front,
+.card .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+.card .front {
+    border: 2px solid #d9d91d;
+    background: white;
+    transform: rotateY(180deg);
+}
+.card .back {
+    background: burlywood;
+    font-size: 100px;
+    transition: 0.3s ease all;
+}
+
+.card .back:hover,
+.button-restart:hover {
+background: cadetblue;
+    transform: scale(1.02);
+}
+
+.button-restart {
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background: chartreuse;
+    transition: 0.3s ease all;
+}
+
+.number-of-strokes{
+    font-size: 20px;
+    font-weight: bold;
+}
