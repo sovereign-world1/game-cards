@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/game-cards/static/css/main.5a535513.css",
+    "main.js": "/game-cards/static/js/main.b6bb478d.js",
+    "static/js/787.bd141954.chunk.js": "/game-cards/static/js/787.bd141954.chunk.js",
+    "static/media/posylka.png": "/game-cards/static/media/posylka.35564f8b81588b28497b.png",
+    "static/media/vk.png": "/game-cards/static/media/vk.69a94d3a3a4000df4f59.png",
+    "static/media/helmet.png": "/game-cards/static/media/helmet.7a10df2d1c11963e9011.png",
+    "static/media/transparent.png": "/game-cards/static/media/transparent.6088948b6379d91d237f.png",
+    "static/media/sound.png": "/game-cards/static/media/sound.aafcd3d49995e76352dc.png",
+    "static/media/odnok.png": "/game-cards/static/media/odnok.9696db8f2984ef14692a.png",
+    "static/media/torii.png": "/game-cards/static/media/torii.349334c009eafdf1212b.png",
+    "static/media/man.png": "/game-cards/static/media/man.b03e9643ec47739def94.png",
+    "static/media/insta.png": "/game-cards/static/media/insta.f1f47a1d0934e0c64901.png",
+    "index.html": "/game-cards/index.html",
+    "main.5a535513.css.map": "/game-cards/static/css/main.5a535513.css.map",
+    "main.b6bb478d.js.map": "/game-cards/static/js/main.b6bb478d.js.map",
+    "787.bd141954.chunk.js.map": "/game-cards/static/js/787.bd141954.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a535513.css",
+    "static/js/main.b6bb478d.js"
+  ]
+}
